@@ -107,7 +107,7 @@ const SignUpPage = () => {
 
                             </div>
                             <div className="form-control mt-6">
-                                <button className="btn bg-blue-500 text-lg text-white hover:bg-blue-800">Sign up</button>
+                                <button className="btn bg-blue-500 text-lg rounded-none text-white hover:bg-blue-800">Sign up</button>
                             </div>
                         </form>
                         <div className="flex items-center pt-4 space-x-1 p-2">

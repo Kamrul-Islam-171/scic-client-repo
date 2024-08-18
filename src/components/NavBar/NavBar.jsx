@@ -37,7 +37,7 @@ const NavBar = () => {
 
     const navlinks = <>
         <NavLink className={({ isActive }) =>
-            isActive ? "  font-medium border-b-2 border-blue-500 text-blue-500 p-2" : " font-medium  p-2 rounded-lg hover:text-primary-color"
+            isActive ? " font-semibold border-b-2 bg-blue-500 text-white px-5 py-2 " : " font-medium  p-2 rounded-lg hover:text-primary-color"
         } to='/'>Home</NavLink>
         
         
@@ -45,7 +45,7 @@ const NavBar = () => {
 
     return (
         <div className="">
-            <div className="fixed w-full z-50 top-0   shadow-md ">
+            <div className=" w-full z-50 top-0 shadow-md ">
 
 
                 <div className="navbar bg-base-100">
@@ -90,16 +90,16 @@ const NavBar = () => {
                                     </div>
 
                                     <div onClick={scrollToTop} className=''>
-                                        <button onClick={handleLogout} className="btn bg-blue-500 hover:bg-blue-800 text-white font-medium  border-none px-4">LogOut</button>
+                                        <button onClick={handleLogout} className="btn rounded-none bg-blue-500 hover:bg-blue-800 text-white font-medium  border-none px-4">LogOut</button>
                                     </div>
                                 </>
                                 :
                                 <>
                                     <div onClick={scrollToTop} className=''>
-                                        <Link to='/register' className="btn bg-blue-500 hover:bg-blue-800 text-white font-medium  border-none px-4">Register</Link>
+                                        <Link to='/register' className="btn rounded-none bg-blue-500 hover:bg-blue-800 text-white font-medium  border-none px-4">Register</Link>
                                     </div>
                                     <div onClick={scrollToTop} className=''>
-                                        <Link to='/login' className="btn bg-blue-500 hover:bg-blue-800 text-white font-medium  border-none px-4">LogIn</Link>
+                                        <Link to='/login' className="btn rounded-none bg-blue-500 hover:bg-blue-800 text-white font-medium  border-none px-4">LogIn</Link>
 
                                     </div>
                                 </>

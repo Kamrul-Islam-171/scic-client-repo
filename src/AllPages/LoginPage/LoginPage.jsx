@@ -87,7 +87,7 @@ const LoginPage = () => {
 
                             </div>
                             <div className="form-control mt-6">
-                                <button className="btn bg-blue-500 text-lg text-white hover:bg-blue-800">Login</button>
+                                <button className="btn bg-blue-500 text-lg text-white rounded-none hover:bg-blue-800">Login</button>
                             </div>
                         </form>
                         <div className="flex items-center pt-4 space-x-1 p-2">

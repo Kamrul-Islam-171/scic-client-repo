@@ -85,7 +85,7 @@ const AllProducts = () => {
         )
     }
     return (
-        <div className="mt-[110px] container mx-auto">
+        <div className="mt-[60px] container mx-auto">
 
 
             <div className="flex gap-5 flex-wrap items-center justify-center">
